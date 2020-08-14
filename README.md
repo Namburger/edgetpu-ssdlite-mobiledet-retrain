@@ -12,7 +12,13 @@ Actual eval after about 3k steps
 
 ## Quick run:
 ```
-$ python3 run_model.py models/ssdlite_mobiledet_custom.tflite test_images
+$ python3 run_model.py models/ssdlite_mobiledet_dog_vs_cat_edgetpu.tflite test_images
+Evaluating: ./test_images/image1.jpg
+Evaluating: ./test_images/image2.jpg
+Evaluating: ./test_images/image3.jpg
+Evaluating: ./test_images/image4.jpg
+Evaluating: ./test_images/image5.jpg
+Inference time:  0.042039949039462954
 ```
 
 ## References:
