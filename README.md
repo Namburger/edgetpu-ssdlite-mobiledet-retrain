@@ -13,13 +13,20 @@ Actual eval after about 3k steps
 ## Quick run:
 ```
 $ python3 run_model.py models/ssdlite_mobiledet_dog_vs_cat_edgetpu.tflite test_images
-Evaluating: ./test_images/image1.jpg
-Evaluating: ./test_images/image2.jpg
-Evaluating: ./test_images/image3.jpg
-Evaluating: ./test_images/image4.jpg
-Evaluating: ./test_images/image5.jpg
-Inference time:  0.042039949039462954
+Evaluating: test_images/image1.jpg
+Evaluating: test_images/image2.jpg
+Evaluating: test_images/image3.jpg
+Evaluating: test_images/image4.jpg
+Evaluating: test_images/image5.jpg
+Evaluating: test_images/image6.jpg
+Evaluating: test_images/image7.jpg
+Evaluating: test_images/image8.jpg
+Inference time:  0.06407481100177392
 ```
+
+[<img dth="777" src="https://github.com/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/assets/inference.png">]()
+Inference Results
+
 
 ## References:
 * Yunyang Xiong, Hanxiao Liu, Suyog Gupta, Berkin Akin, Gabriel Bender, Pieter-Jan Kindermans, Mingxing Tan, Vikas Singh, Bo Chen:
