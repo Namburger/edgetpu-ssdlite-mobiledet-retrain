@@ -39,7 +39,7 @@ def run_inference(interpreter, image):
 
 
 t = 0
-test_image_paths = [os.path.join(str(sys.argv[2]) + '/image{}.jpg'.format(i)) for i in range(1, 6)]
+test_image_paths = [os.path.join(str(sys.argv[2]) + '/image{}.jpg'.format(i)) for i in range(1, 9)]
 for image_path in test_image_paths:
   print('Evaluating:', image_path)
   image = Image.open(image_path)
