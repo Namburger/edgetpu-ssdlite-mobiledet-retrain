@@ -7,8 +7,11 @@ This repo contains the Colab notebook for my ssdlite mobiledet model retrain tut
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/ssdlite_mobiledet_transfer_learning_cat_vs_dog.ipynb)
 
-[<img dth="777" src="https://github.com/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/assets/eval.png">]()
-Actual eval after about 3k steps
+Checkout my [Medium](https://medium.com/@namvu1291/deploy-your-own-ssdlite-mobiledet-object-detector-on-google-corals-edgetpu-using-tensorflow-s-f41f1e3360c8) article for the full walk through:
+[<img dth="777" src="https://github.com/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/assets/medium.png">](https://medium.com/@namvu1291/deploy-your-own-ssdlite-mobiledet-object-detector-on-google-corals-edgetpu-using-tensorflow-s-f41f1e3360c8)
+
+Actual eval after about 3k steps:
+[<img dth="777" src="https://github.com/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/assets/eval.png">](https://medium.com/@namvu1291/deploy-your-own-ssdlite-mobiledet-object-detector-on-google-corals-edgetpu-using-tensorflow-s-f41f1e3360c8)
 
 ## Quick run:
 ```
