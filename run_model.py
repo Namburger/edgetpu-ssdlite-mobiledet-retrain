@@ -2,10 +2,17 @@ import os
 import sys
 import time
 import numpy as np
+import platform
 from tflite_runtime.interpreter import Interpreter
 from tflite_runtime.interpreter import load_delegate
 from PIL import Image
 from PIL import ImageDraw
+
+EDGETPU_SHARED_LIB = {
+  'Linux': 'libedgetpu.so.1',
+  'Darwin': 'libedgetpu.1.dylib',
+  'Windows': 'edgetpu.dll'
+}[platform.system()]
 
 if len(sys.argv) < 3:
   print('Usage:', sys.argv[0], '<model_path> <test_image_dir>')
@@ -16,7 +23,7 @@ model_path = str(sys.argv[1])
 # Creates tflite interpreter
 if 'edgetpu' in model_path:
   interpreter = Interpreter(model_path, experimental_delegates=[
-      load_delegate('libedgetpu.so.1.0')])
+      load_delegate(EDGETPU_SHARED_LIB)])
 else:
   interpreter = Interpreter(model_path)
 
