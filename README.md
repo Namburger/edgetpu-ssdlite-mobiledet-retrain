@@ -30,6 +30,13 @@ Inference time:  0.06407481100177392
 [<img dth="777" src="https://github.com/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/assets/inference.png">]()
 Inference Results
 
+## [Update]: Added new colab for Mask Detection
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/mask_detection.ipynb)
+
+Eval:
+[<img dth="777" src="https://github.com/Namburger/edgetpu-ssdlite-mobiledet-retrain/blob/master/assets/mask.png">](https://medium.com/@namvu1291/deploy-your-own-ssdlite-mobiledet-object-detector-on-google-corals-edgetpu-using-tensorflow-s-f41f1e3360c8)
+
 
 ## References:
 * Yunyang Xiong, Hanxiao Liu, Suyog Gupta, Berkin Akin, Gabriel Bender, Pieter-Jan Kindermans, Mingxing Tan, Vikas Singh, Bo Chen:
